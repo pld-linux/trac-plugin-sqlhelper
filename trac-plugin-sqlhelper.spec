@@ -10,6 +10,7 @@ Source0:	http://trac-hacks.org/changeset/latest/tracsqlhelperscript?old_path=/&f
 # Source0-md5:	7ab69c8b26d438465fa184f4c5afa710
 URL:		http://trac-hacks.org/wiki/TracSqlHelperScript
 BuildRequires:	python-devel
+BuildRequires:	unzip
 Requires:	trac >= %{trac_ver}
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
